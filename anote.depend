@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1481229817 source:/home/host/Dokumenty/anote/main.cpp
+	<iostream>
+	"Core/Compiler.h"
+
+1481229830 /home/host/Dokumenty/anote/include/Core/Compiler.h
+
+1481229861 source:/home/host/Dokumenty/anote/src/Core/Compiler.cpp
+	"Compiler.h"
+
+1481228974 /home/host/Dokumenty/anote/include/Compiler.h
+
+1481229897 source:/home/host/Dokumenty/anote/src/Exception/SemanticException.cpp
+	"Exception/SemanticException.h"
+
+1481229887 /home/host/Dokumenty/anote/include/Exception/SemanticException.h
+
+1481229915 source:/home/host/Dokumenty/anote/src/Exception/SyntaxException.cpp
+	"Exception/SyntaxException.h"
+
+1481229928 /home/host/Dokumenty/anote/include/Exception/SyntaxException.h
+
+1481229941 source:/home/host/Dokumenty/anote/src/Files/File.cpp
+	"Files/File.h"
+
+1481229949 /home/host/Dokumenty/anote/include/Files/File.h
+
+1481229962 source:/home/host/Dokumenty/anote/src/Files/SourceCode.cpp
+	"Files/SourceCode.h"
+
+1481229971 /home/host/Dokumenty/anote/include/Files/SourceCode.h
+
+1481229983 source:/home/host/Dokumenty/anote/src/Lang/Datatype.cpp
+	"Lang/Datatype.h"
+
+1481229991 /home/host/Dokumenty/anote/include/Lang/Datatype.h
+
+1481230012 source:/home/host/Dokumenty/anote/src/Lang/Method.cpp
+	"Lang/Method.h"
+
+1481230008 /home/host/Dokumenty/anote/include/Lang/Method.h
+
