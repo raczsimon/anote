@@ -1,14 +1,22 @@
 # depslib dependency file v1.0
-1481229817 source:/home/host/Dokumenty/anote/main.cpp
+1481359249 source:/home/host/Dokumenty/anote/main.cpp
 	<iostream>
 	"Core/Compiler.h"
+	<string>
 
-1481229830 /home/host/Dokumenty/anote/include/Core/Compiler.h
+1481359221 /home/host/Dokumenty/anote/include/Core/Compiler.h
+	<string>
 
-1481229861 source:/home/host/Dokumenty/anote/src/Core/Compiler.cpp
-	"Compiler.h"
+1481360083 source:/home/host/Dokumenty/anote/src/Core/Compiler.cpp
+	"Core/Compiler.h"
+	"Core/Parser.h"
+	"Files/File.h"
+	<iostream>
+	<string>
+	<vector>
 
-1481228974 /home/host/Dokumenty/anote/include/Compiler.h
+1481359190 /home/host/Dokumenty/anote/include/Compiler.h
+	<string>
 
 1481229897 source:/home/host/Dokumenty/anote/src/Exception/SemanticException.cpp
 	"Exception/SemanticException.h"
@@ -20,10 +28,18 @@
 
 1481229928 /home/host/Dokumenty/anote/include/Exception/SyntaxException.h
 
-1481229941 source:/home/host/Dokumenty/anote/src/Files/File.cpp
+1481359675 source:/home/host/Dokumenty/anote/src/Files/File.cpp
 	"Files/File.h"
+	<string>
+	<iostream>
+	<fstream>
+	<istream>
+	<vector>
 
-1481229949 /home/host/Dokumenty/anote/include/Files/File.h
+1481359514 /home/host/Dokumenty/anote/include/Files/File.h
+	<string>
+	<fstream>
+	<vector>
 
 1481229962 source:/home/host/Dokumenty/anote/src/Files/SourceCode.cpp
 	"Files/SourceCode.h"
@@ -35,8 +51,41 @@
 
 1481229991 /home/host/Dokumenty/anote/include/Lang/Datatype.h
 
-1481230012 source:/home/host/Dokumenty/anote/src/Lang/Method.cpp
+1481360850 source:/home/host/Dokumenty/anote/src/Lang/Method.cpp
 	"Lang/Method.h"
+	<regex>
 
-1481230008 /home/host/Dokumenty/anote/include/Lang/Method.h
+1481360868 /home/host/Dokumenty/anote/include/Lang/Method.h
+	"Lang/Grammar.h"
+	<string>
+	<regex>
+
+1481230024 source:/home/host/Dokumenty/anote/src/Lang/Token.cpp
+	"Lang/Token.h"
+
+1481230033 /home/host/Dokumenty/anote/include/Lang/Token.h
+
+1481357944 source:/home/host/Dokumenty/anote/src/Exception/FileException.cpp
+	"Exception/FileException.h"
+
+1481358081 /home/host/Dokumenty/anote/include/Exception/FileException.h
+	<exception>
+
+1481360267 /home/host/Dokumenty/anote/include/Core/Parser.h
+	"Lang/Grammar.h"
+	<string>
+	<vector>
+
+1481360806 /home/host/Dokumenty/anote/include/Lang/Grammar.h
+	<string>
+
+1481360798 source:/home/host/Dokumenty/anote/src/Lang/Grammar.cpp
+	"Lang/Grammar.h"
+
+1481360922 source:/home/host/Dokumenty/anote/src/Core/Parser.cpp
+	"Core/Parser.h"
+	"Lang/Method.h"
+	"Lang/Grammar.h"
+	<iostream>
+	<vector>
 

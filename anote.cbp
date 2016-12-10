@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,7 +34,25 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="examples/hello_world.anote" />
+		<Unit filename="include/Compiler.h" />
+		<Unit filename="include/Core/Compiler.h" />
+		<Unit filename="include/Core/Parser.h" />
+		<Unit filename="include/Files/File.h" />
+		<Unit filename="include/Files/SourceCode.h" />
+		<Unit filename="include/Lang/Datatype.h" />
+		<Unit filename="include/Lang/Grammar.h" />
+		<Unit filename="include/Lang/Method.h" />
+		<Unit filename="include/Lang/Token.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Core/Compiler.cpp" />
+		<Unit filename="src/Core/Parser.cpp" />
+		<Unit filename="src/Files/File.cpp" />
+		<Unit filename="src/Files/SourceCode.cpp" />
+		<Unit filename="src/Lang/Datatype.cpp" />
+		<Unit filename="src/Lang/Grammar.cpp" />
+		<Unit filename="src/Lang/Method.cpp" />
+		<Unit filename="src/Lang/Token.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
